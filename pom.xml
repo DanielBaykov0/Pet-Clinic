@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>baykov.daniel</groupId>
 	<artifactId>spring-pet-clinic</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>spring-pet-clinic</name>
 	<description>Pet Clinic</description>
@@ -48,7 +48,6 @@
 
 	<scm>
 		<developerConnection>scm:git:git@github.com:DanielBaykov0/Pet-Clinic.git</developerConnection>
-	  <tag>spring-pet-clinic-0.0.1</tag>
   </scm>
 
 </project>
