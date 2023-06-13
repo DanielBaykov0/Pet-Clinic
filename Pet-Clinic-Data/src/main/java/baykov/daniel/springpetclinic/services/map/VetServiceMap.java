@@ -2,9 +2,11 @@ package baykov.daniel.springpetclinic.services.map;
 
 import baykov.daniel.springpetclinic.model.Vet;
 import baykov.daniel.springpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
