@@ -26,6 +26,8 @@ jobs:
       - run:
           name: Test
           command: mvn test
+          
+      - run: mvn dependency:go-offline
 
       - run: mvn dependency:go-offline
 
