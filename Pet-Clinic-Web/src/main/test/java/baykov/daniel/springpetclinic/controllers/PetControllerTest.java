@@ -1,6 +1,5 @@
 package baykov.daniel.springpetclinic.controllers;
 
-import baykov.daniel.springpetclinic.controllers.PetController;
 import baykov.daniel.springpetclinic.model.Owner;
 import baykov.daniel.springpetclinic.model.Pet;
 import baykov.daniel.springpetclinic.model.PetType;
@@ -69,7 +68,7 @@ class PetControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(model().attributeExists("owner"))
                 .andExpect(model().attributeExists("pet"))
-                .andExpect(view().name("pets/createOrUpdatePetForm"));
+                .andExpect(view().name("templates/pets/createOrUpdatePetForm"));
     }
 
     @Test
@@ -94,7 +93,7 @@ class PetControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(model().attributeExists("owner"))
                 .andExpect(model().attributeExists("pet"))
-                .andExpect(view().name("pets/createOrUpdatePetForm"));
+                .andExpect(view().name("templates/pets/createOrUpdatePetForm"));
     }
 
     @Test
